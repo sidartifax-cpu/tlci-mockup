@@ -811,6 +811,257 @@ footer{
   </div>
 </div>
 
+
+<!-- ═══ TWO INSTITUTIONS ════════════════════════ -->
+<div class="dual-inst">
+  <div class="dual-inst-inner">
+
+    <!-- Section header -->
+    <div class="shl reveal">
+      <div class="shl-ln" style="background:linear-gradient(90deg,transparent,rgba(196,154,42,0.3))"></div>
+      <span class="shl-txt dark">Two Institutions. One Sacred Mission.</span>
+      <div class="shl-ln r" style="background:linear-gradient(90deg,rgba(196,154,42,0.3),transparent)"></div>
+    </div>
+
+    <!-- Dual logo row -->
+    <div class="dual-logos reveal">
+
+      <!-- TLCI side -->
+      <div class="dual-logo-col">
+        <div class="dual-logo-wrap dual-logo-dark">
+          <img src="images/logo-nav.png" alt="Transcendent Life Coaching Institute" class="dual-logo-img" style="mix-blend-mode:lighten;"/>
+        </div>
+        <h3 class="dual-inst-name">Transcendent Life Coaching Institute</h3>
+        <p class="dual-inst-desc">Certifying the next generation of transformational life coaches through a sacred, ancestral, and clinically grounded curriculum.</p>
+        <div class="dual-inst-tags">
+          <span class="di-tag">Life Coach Certification</span>
+          <span class="di-tag">8-Month Program</span>
+          <span class="di-tag">$50 Deposit</span>
+        </div>
+      </div>
+
+      <!-- Center divider -->
+      <div class="dual-divider">
+        <div class="dual-divider-line"></div>
+        <div class="dual-divider-gem">✦</div>
+        <div class="dual-divider-line"></div>
+      </div>
+
+      <!-- TIOTP side -->
+      <div class="dual-logo-col">
+        <div class="dual-logo-wrap dual-logo-light">
+          <img src="images/tiotp-logo.png" alt="Theological Institute of Transpersonal Psychology" class="dual-logo-img tiotp-logo"/>
+        </div>
+        <h3 class="dual-inst-name">Theological Institute of<br/>Transpersonal Psychology</h3>
+        <p class="dual-inst-desc">Offering academic courses in transpersonal psychology rooted in universal spiritual principles — with credit toward a Master&rsquo;s of Divinity degree.</p>
+        <div class="dual-inst-tags">
+          <span class="di-tag">Courses from $300</span>
+          <span class="di-tag">3 Credit Hours Each</span>
+          <span class="di-tag">Master&rsquo;s Reciprocity</span>
+        </div>
+      </div>
+
+    </div><!-- /dual-logos -->
+
+    <!-- Partnership callout -->
+    <div class="dual-partner reveal">
+      <span class="dual-partner-icon">🏛️</span>
+      <p class="dual-partner-text">
+        <strong>Hillside UniverseCity Reciprocity</strong> &mdash;
+        Barbara King School of Ministry classes count as electives at TIOTP,
+        and TIOTP classes count as electives toward Hillside degrees.
+        Two institutions. One path to wholeness.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<style>
+.dual-inst {
+  background:var(--cream);
+  padding:80px 0 72px;
+  border-top:1px solid rgba(196,154,42,0.12);
+  border-bottom:1px solid rgba(196,154,42,0.12);
+}
+
+.dual-inst-inner {
+  max-width:1100px;
+  margin:0 auto;
+  padding:0 48px;
+}
+
+.dual-logos {
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  gap:40px;
+  align-items:start;
+  margin-top:0;
+}
+
+.dual-logo-col {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:0;
+}
+
+/* Logo tile — TLCI dark bg */
+.dual-logo-wrap {
+  width:260px;
+  height:130px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:24px;
+  border:1px solid rgba(196,154,42,0.2);
+  box-shadow:0 4px 24px rgba(196,154,42,0.08);
+  transition:box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.dual-logo-wrap:hover {
+  box-shadow:0 8px 40px rgba(196,154,42,0.2);
+  transform:translateY(-3px);
+}
+
+.dual-logo-dark {
+  background:#0D0F1E;
+}
+
+.dual-logo-light {
+  background:#F8F5EE;
+  border-color:rgba(196,154,42,0.25);
+}
+
+.dual-logo-img {
+  max-width:220px;
+  max-height:110px;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+}
+
+/* TIOTP logo — larger since it is square/circular seal */
+.tiotp-logo {
+  max-width:110px;
+  max-height:110px;
+}
+
+.dual-inst-name {
+  font-family:'Cinzel',serif;
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:0.1em;
+  color:var(--navy);
+  text-transform:uppercase;
+  margin-bottom:12px;
+  line-height:1.4;
+}
+
+.dual-inst-desc {
+  font-family:'Inter',sans-serif;
+  font-size:13px;
+  font-weight:300;
+  line-height:1.8;
+  color:var(--ink-soft);
+  max-width:340px;
+  margin-bottom:18px;
+}
+
+.dual-inst-tags {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  justify-content:center;
+}
+
+.di-tag {
+  font-family:'Cinzel',serif;
+  font-size:8.5px;
+  font-weight:600;
+  letter-spacing:0.2em;
+  color:var(--gold);
+  text-transform:uppercase;
+  border:1px solid rgba(196,154,42,0.25);
+  padding:5px 12px;
+  background:rgba(196,154,42,0.04);
+  white-space:nowrap;
+}
+
+/* Center divider */
+.dual-divider {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+  padding-top:68px;
+}
+
+.dual-divider-line {
+  flex:1;
+  width:1px;
+  min-height:80px;
+  background:linear-gradient(180deg,transparent,rgba(196,154,42,0.3),transparent);
+}
+
+.dual-divider-gem {
+  font-size:18px;
+  color:var(--gold);
+  opacity:0.6;
+}
+
+/* Partnership callout bar */
+.dual-partner {
+  margin-top:48px;
+  padding:24px 36px;
+  background:rgba(196,154,42,0.05);
+  border:1px solid rgba(196,154,42,0.18);
+  border-left:4px solid var(--gold);
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+}
+
+.dual-partner-icon {
+  font-size:22px;
+  flex-shrink:0;
+  margin-top:2px;
+}
+
+.dual-partner-text {
+  font-family:'Inter',sans-serif;
+  font-size:13px;
+  font-weight:300;
+  line-height:1.8;
+  color:var(--ink-soft);
+}
+
+.dual-partner-text strong {
+  font-weight:600;
+  color:var(--navy);
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .dual-inst-inner { padding:0 24px; }
+  .dual-logos {
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+  .dual-divider {
+    flex-direction:row;
+    padding-top:0;
+  }
+  .dual-divider-line {
+    flex:1;height:1px;min-height:auto;width:auto;
+    background:linear-gradient(90deg,transparent,rgba(196,154,42,0.3),transparent);
+  }
+  .dual-logo-wrap { width:220px;height:110px; }
+  .dual-partner { flex-direction:column;gap:10px; }
+}
+</style>
+
 <!-- ═══ MEET THE VISIONARIES ════════════════════ -->
 <div class="visionaries">
   <div class="visionaries-inner">
@@ -1011,7 +1262,7 @@ els.forEach(e=>obs.observe(e));
   backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
   display:flex;align-items:center;justify-content:center;
   padding:20px;
-  animation:tlci-fade-in 0.55s ease both;
+  /* fade handled by JS */
 }
 
 #tlci-box {
@@ -1141,15 +1392,51 @@ els.forEach(e=>obs.observe(e));
 }
 .tlci-fine strong { color:rgba(196,154,42,0.7);font-weight:500; }
 
-@media(max-width:520px){
-  .tlci-content { padding:36px 24px 32px; }
-  .tlci-logo-tile img { height:64px; }
-  .tlci-btns { flex-direction:column;align-items:center; }
-  .tlci-btn-p,.tlci-btn-g { width:100%;text-align:center; }
+@media(max-width:600px){
+  #tlci-overlay {
+    padding:12px;
+    align-items:flex-start;
+    padding-top:16px;
+  }
+  #tlci-box {
+    max-height:calc(100dvh - 32px);
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  .tlci-corner { width:28px;height:28px; }
+  .tlci-close {
+    top:12px;right:12px;
+    font-size:16px;
+    padding:8px;
+    background:rgba(255,255,255,0.9);
+    border-radius:50%;
+    width:32px;height:32px;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+  }
+  .tlci-content { padding:28px 20px 24px; }
+  .tlci-logo-tile {
+    padding:12px 20px 10px;
+    margin-bottom:18px;
+  }
+  .tlci-logo-tile img { height:52px; }
+  .tlci-rule { margin-bottom:14px; }
+  .tlci-welcome { font-size:16px;letter-spacing:0.1em; }
+  .tlci-tagline { font-size:13px;margin-bottom:14px; }
+  .tlci-message {
+    font-size:13px;line-height:1.75;
+    margin-bottom:18px;
+  }
+  .tlci-rule-sm { margin-bottom:18px; }
+  .tlci-btns { flex-direction:column;align-items:center;gap:10px;margin-bottom:12px; }
+  .tlci-btn-p,.tlci-btn-g { width:100%;text-align:center;padding:13px 20px; }
+  .tlci-fine { font-size:10px; }
+  .tlci-geo { width:260px;height:260px; }
+  .tlci-stripe { height:4px; }
 }
 </style>
 
-<div id="tlci-overlay">
+<div id="tlci-overlay" style="display:none;">
   <div id="tlci-box">
     <div class="tlci-stripe"></div>
     <div class="tlci-corner tlci-tl"></div>
@@ -1215,11 +1502,28 @@ els.forEach(e=>obs.observe(e));
     o.style.opacity='0';
     setTimeout(function(){if(o&&o.parentNode)o.parentNode.removeChild(o);},450);
   }
+
+  function tlciShow(){
+    var o=document.getElementById('tlci-overlay');
+    if(!o)return;
+    o.style.display='flex';
+    o.style.opacity='0';
+    o.style.transition='opacity 0.6s ease';
+    setTimeout(function(){ o.style.opacity='1'; },30);
+    // Auto-dismiss 30s after popup appears
+    setTimeout(tlciClose,30000);
+  }
+
   window.tlciClose=tlciClose;
+
+  // Show popup after 15 seconds
+  setTimeout(tlciShow, 15000);
+
   var ov=document.getElementById('tlci-overlay');
-  if(ov)ov.addEventListener('click',function(e){if(e.target===ov)tlciClose();});
+  if(ov){
+    ov.addEventListener('click',function(e){if(e.target===ov)tlciClose();});
+  }
   document.addEventListener('keydown',function(e){if(e.key==='Escape')tlciClose();});
-  setTimeout(tlciClose,30000);
 })();
 </script>
 <!-- END TLCI WELCOME POPUP -->
